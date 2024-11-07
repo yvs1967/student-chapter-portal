@@ -1,0 +1,17 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar, .hero, .about, .event-slider, .previous-events-slider, .footer {
+  padding: 20px;
+}

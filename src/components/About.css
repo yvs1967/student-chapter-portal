@@ -1,0 +1,86 @@
+.about-section {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.about-image {
+  flex: 1;
+  padding-right: 2rem; /* Added space on the right side */
+  margin-right: 2rem;  /* Additional margin to create space between image and text */
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-text {
+  flex: 2;
+  color: #333;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50; /* Darker color for contrast */
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #555; /* Softer text color */
+}
+
+/* Responsive layout for tablets */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Stack image and text */
+    text-align: center;
+  }
+  .about-image {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+  .about-text p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive layout for mobile screens */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 2rem 1rem; /* Reduce padding for mobile */
+  }
+  .about-image img {
+    width: 80%; /* Reduce image width for mobile */
+    max-width: 250px; /* Set a maximum width for smaller screens */
+    border-radius: 6px; /* Slightly smaller border radius */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08); /* Softer shadow for mobile */
+  }
+  .about-text h2 {
+    font-size: 1.5rem; /* Smaller font for mobile */
+    margin-bottom: 0.8rem;
+  }
+  .about-text p {
+    font-size: 0.9rem; /* Adjust font size for readability */
+    line-height: 1.5; /* Adjust line height */
+  }
+}

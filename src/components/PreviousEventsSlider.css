@@ -1,0 +1,45 @@
+.previous-events-slider {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .previous-events-slider h2 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 30px;
+  }
+  
+  .previous-event-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .previous-event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .previous-event-card h3 {
+    font-size: 1.3em;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .previous-event-card .view-more {
+    display: inline-block;
+    color: #ffb84d;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .previous-event-card .view-more:hover {
+    color: #ff9933;
+  }
+  

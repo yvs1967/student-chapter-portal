@@ -1,0 +1,32 @@
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .footer h3 {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+  
+  .footer p {
+    font-size: 0.9em;
+    color: #cccccc;
+  }
+  
+  .footer p span {
+    color: #ffb84d;
+  }
+  
+  .footer p a {
+    color: #ffb84d;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  

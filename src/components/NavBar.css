@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically center align items */
+    padding: 1rem 2rem;
+    background-color: #87CEEB; /* Light sky-blue color */
+    border-bottom: 1px solid #b0c4de;
+  }
+  
+  .navbar-logo {
+    height: 50px; /* Set height for the logo */
+    margin-right: 1rem; /* Space between logo and title */
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1C3D5A; /* White color for visibility */
+    margin-right: auto; /* Push login button to the right */
+  }
+  
+  .login-button {
+    background-color: #005f73; /* Darker teal for contrast */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .login-button:hover {
+    background-color: #003f5c; /* Darker teal on hover */
+  }
+  

@@ -1,0 +1,100 @@
+
+.upcoming-events{
+  width: 40%;
+  display: flex;                /* Enables Flexbox */
+  justify-content: center;      /* Aligns the items horizontally in the center */
+  align-items: center;          /* Aligns the items vertically (optional) */
+  flex-direction: column;       /* Stacks the heading and events vertically */
+  padding: 2rem;
+}
+
+#upcoming-events h5 {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  text-align: left;  /* Aligns to the left */
+  margin-left: 2rem; /* Adds some left margin */
+}
+
+#upcoming-events h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-dark);
+}
+
+.upcoming-events-slider {
+  width: 70%; /* Makes the events container smaller than the screen */
+  margin: 0 auto; /* Centers the container */
+  padding-bottom: 4rem;
+}
+
+.upcoming-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  width: 90%; /* Smaller width for the event boxes */
+  margin: 0 auto; /* Centers each event box */
+}
+
+.event-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.event-details {
+  margin-top: 1rem;
+}
+
+.event-title {
+  font-size: 1.5rem;
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.event-date,
+.event-location {
+  font-size: 1rem;
+  color: var(--color-dark);
+  margin: 0.5rem 0;
+}
+
+.register-link {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-link:hover {
+  background-color: var(--color-primary-variant);
+}
+
+/* ==================== MEDIA QUERIES ===================== */
+@media screen and (max-width: 1024px) {
+  .upcoming-events-slider {
+    width: 80%; /* Adjust width for medium screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .upcoming-events-slider {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .event-title {
+    font-size: 1.2rem;
+  }
+
+  .event-date,
+  .event-location {
+    font-size: 0.9rem;
+  }
+}
